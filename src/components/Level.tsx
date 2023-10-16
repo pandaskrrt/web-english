@@ -18,7 +18,7 @@ const Level = () => {
           aliquid, dolore nesciunt corporis elige
         </p>
       </div>
-      <div className="flex flex-wrap justify-center mx-2 lg:mx-0">
+      <div className="flex flex-wrap justify-center mx-2 md:mx-14">
         <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
