@@ -1,13 +1,16 @@
-import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Intership from './pages/Intership'
+import Cta from './components/Cta'
+import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+import Profile from './components/Profile'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/intership" element={<Intership />} />
-    </Routes>
+    <div className="">
+      <Navbar />
+      <Hero />
+      <Cta />
+      <Profile />
+    </div>
   )
 }
 
