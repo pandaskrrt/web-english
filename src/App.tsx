@@ -3,6 +3,7 @@ import Cta from './components/Cta'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Profile from './components/Profile'
+import Program from './components/Program'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Cta />
       <Profile />
       <Benefit />
+      <Program />
     </div>
   )
 }
