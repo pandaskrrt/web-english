@@ -7,7 +7,7 @@ import { HeartHandshake } from 'lucide-react'
 
 const Benefit = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 py-6">
+    <section id="benefit" className="bg-white dark:bg-gray-900 py-6">
       <div className="py-8 px-4 max-w-screen-xl sm:py-16 lg:px-6 md:mx-auto mx-4">
         <div className="max-w-screen-md mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-orange-600 dark:text-white">

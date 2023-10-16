@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { Link as Scroll, animateScroll } from 'react-scroll'
 import logo from '@/assets/logo.jpg'
 
 const Navbar = () => {
@@ -46,68 +47,96 @@ const Navbar = () => {
           <ul className="font-medium flex flex-row md:space-x-8">
             <li>
               <a
-                href="#"
                 className="text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
                 aria-current="page"
+                onClick={() => animateScroll.scrollToTop()}
               >
                 Home
               </a>
             </li>
             <li>
-              <a
-                href="#"
+              <Scroll
                 className="text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+                activeClass="active"
+                to="tentang"
+                spy={true}
+                smooth={true}
+                duration={500}
               >
                 Tentang
-              </a>
+              </Scroll>
             </li>
             <li>
-              <a
-                href="#"
+              <Scroll
                 className="text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+                activeClass="active"
+                to="benefit"
+                spy={true}
+                smooth={true}
+                duration={500}
               >
                 Benefit
-              </a>
+              </Scroll>
             </li>
             <li>
-              <a
-                href="#"
+              <Scroll
                 className="text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+                activeClass="active"
+                to="program"
+                spy={true}
+                smooth={true}
+                duration={500}
               >
                 Program
-              </a>
+              </Scroll>
             </li>
             <li>
-              <a
-                href="#"
+              <Scroll
                 className="text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+                activeClass="active"
+                to="level"
+                spy={true}
+                smooth={true}
+                duration={500}
               >
                 Level
-              </a>
+              </Scroll>
             </li>
             <li>
-              <a
-                href="#"
+              <Scroll
                 className="text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+                activeClass="active"
+                to="harga"
+                spy={true}
+                smooth={true}
+                duration={500}
               >
                 Harga
-              </a>
+              </Scroll>
             </li>
             <li>
-              <a
-                href="#"
+              <Scroll
                 className="text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+                activeClass="active"
+                to="cabang"
+                spy={true}
+                smooth={true}
+                duration={500}
               >
                 Cabang
-              </a>
+              </Scroll>
             </li>
             <li>
-              <a
-                href="#"
+              <Scroll
                 className="text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+                activeClass="active"
+                to="testimoni"
+                spy={true}
+                smooth={true}
+                duration={500}
               >
                 Testimoni
-              </a>
+              </Scroll>
             </li>
             <li>
               <Link
@@ -128,76 +157,104 @@ const Navbar = () => {
         <ul className="font-medium flex flex-col mt-4 ml-6 ">
           <li>
             <a
-              href="#"
               className="block py-2 text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
               aria-current="page"
+              onClick={() => animateScroll.scrollToTop()}
             >
               Home
             </a>
           </li>
           <li>
-            <a
-              href="#"
+            <Scroll
               className="block py-2 text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+              activeClass="active"
+              to="tentang"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Tentang
-            </a>
+            </Scroll>
           </li>
           <li>
-            <a
-              href="#"
+            <Scroll
               className="block py-2 text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+              activeClass="active"
+              to="benefit"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Benefit
-            </a>
+            </Scroll>
           </li>
           <li>
-            <a
-              href="#"
+            <Scroll
               className="block py-2 text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+              activeClass="active"
+              to="program"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Program
-            </a>
+            </Scroll>
           </li>
           <li>
-            <a
-              href="#"
+            <Scroll
               className="block py-2 text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+              activeClass="active"
+              to="level"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Level
-            </a>
+            </Scroll>
           </li>
           <li>
-            <a
-              href="#"
+            <Scroll
               className="block py-2 text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+              activeClass="active"
+              to="harga"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Harga
-            </a>
+            </Scroll>
           </li>
           <li>
-            <a
-              href="#"
+            <Scroll
               className="block py-2 text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+              activeClass="active"
+              to="cabang"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Cabang
-            </a>
+            </Scroll>
           </li>
           <li>
-            <a
-              href="#"
+            <Scroll
               className="block py-2 text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
+              activeClass="active"
+              to="testimoni"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
               Testimoni
-            </a>
+            </Scroll>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              to="/intership"
               className="block py-2 text-gray-900 hover:text-orange-600 dark:text-white dark:hover:text-blue-500"
             >
               Internship
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

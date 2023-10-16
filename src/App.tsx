@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Intership from './components/homepages/Intership'
+import Intership from './pages/Intership'
 
 function App() {
   return (

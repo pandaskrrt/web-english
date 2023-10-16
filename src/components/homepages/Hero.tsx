@@ -5,7 +5,10 @@ const Hero = () => {
   }
 
   return (
-    <div className="bg-gradient-to-r from-orange-600 to-orange-400 min-h-screen flex flex-col items-center md:flex-row md:items-center justify-between">
+    <div
+      id="tentang"
+      className="bg-gradient-to-r from-orange-600 to-orange-400 min-h-screen flex flex-col items-center md:flex-row md:items-center justify-between"
+    >
       <div className="container mx-auto flex flex-col items-center md:flex-row md:items-center justify-between">
         <div className="w-full md:w-1/2 text-white md:mr-28 order-1 md:order-2 mb-14 md:mb-0">
           <h1 className="text-5xl font-bold text-center md:text-left">
