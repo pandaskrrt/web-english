@@ -1,3 +1,4 @@
+import Benefit from './components/Benefit'
 import Cta from './components/Cta'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Cta />
       <Profile />
+      <Benefit />
     </div>
   )
 }
