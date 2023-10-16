@@ -6,7 +6,7 @@ const Profile = () => {
           Tempat Les, Kursus Bahasa Inggris dengan Konsep Cafe Pertama di
           Indonesia
         </h1>
-        <p>Untuk Siswa, Mahasiswa, Karyawan, dan Umum.</p>
+        <p>Untuk Siswa, Mahasiswa, Karyawan, dan Umum</p>
         <div className="mt-6 md:mt-12 mx-5">
           <div className="relative" style={{ paddingBottom: '56.25%' }}>
             <iframe
