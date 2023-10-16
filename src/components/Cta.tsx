@@ -8,12 +8,12 @@ import {
 
 const Cta = () => {
   return (
-    <div className="py-10 text-center">
+    <div className="py-10 text-center mt-8">
       <h1 className="text-3xl md:text-5xl font-bold mb-4">
         Kapan Belajar Bahasa <span className="text-orange-500">INGGRIS</span>?
       </h1>
       <div className="md:flex items-center justify-start">
-        <div className="md:w-1/2 pr-4 md:pr-12 ml-4  text-left">
+        <div className="md:w-1/2 pr-4 md:pr-12 ml-4 md:ml-28  text-left">
           <h5 className="text-lg md:ml-32 ml-4  mb-3 font-bold text-orange-500">
             FAQ
           </h5>
@@ -43,7 +43,7 @@ const Cta = () => {
             </AccordionItem>
           </Accordion>
         </div>
-        <div className="md:w-1/2 md:ml-8 md:mt-0">
+        <div className="md:w-1/2 md:mr-28 md:mt-0">
           <img
             src={image}
             alt="Gambar Anda"
