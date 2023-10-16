@@ -47,7 +47,7 @@ const Cta = () => {
           <img
             src={image}
             alt="Gambar Anda"
-            className="w-full md:w-2/3 md:mx-auto mx-5"
+            className="w-96 md:w-2/3 md:mx-auto mx-5"
           />
         </div>
       </div>
