@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import logo from '@/assets/logo.jpg'
 
 const Navbar = () => {
@@ -109,12 +110,12 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/intership"
                 className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
               >
-                Internship
-              </a>
+                Intership
+              </Link>
             </li>
           </ul>
         </div>
