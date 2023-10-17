@@ -6,6 +6,8 @@ import Profile from '../components/homepages/Profile'
 import Benefit from '../components/homepages/Benefit'
 import Program from '../components/homepages/Price'
 import Level from '../components/homepages/Level'
+import Footer from '@/components/Footer'
+import CabangAccorrdion from '@/components/homepages/CabangAccorrdion'
 
 const Home: FC = () => {
   return (
@@ -17,6 +19,8 @@ const Home: FC = () => {
       <Benefit />
       <Program />
       <Level />
+      <CabangAccorrdion />
+      <Footer />
     </div>
   )
 }

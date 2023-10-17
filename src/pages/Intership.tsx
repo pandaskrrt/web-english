@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Benefit from '@/components/intership/Benefit'
 import Gallery from '@/components/intership/Gallery'
 import Info from '@/components/intership/Info'
@@ -13,6 +14,7 @@ const Intership: FC = () => {
       <Skill />
       <Benefit />
       <Gallery />
+      <Footer />
     </div>
   )
 }

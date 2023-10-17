@@ -7,7 +7,7 @@ interface BenefitItemProps {
 
 const BenefitItem: FC<BenefitItemProps> = ({ desc }) => {
   return (
-    <div className="flex bg-white rounded-3xl p-4 items-center gap-4 w-[30%]">
+    <div className="flex bg-white rounded-3xl p-4 items-center gap-4 w-full">
       <div className="rounded-full bg-green-600 p-1">
         <Check color="white" className="w-14 h-14" />
       </div>

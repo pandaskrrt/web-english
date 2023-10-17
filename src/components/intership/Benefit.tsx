@@ -10,7 +10,7 @@ const Benefit: FC = () => {
       <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight my-20">
         <span className="text-orange-500">BENEFIT</span> YANG DIDAPAT
       </h3>
-      <div className="flex justify-between flex-wrap gap-4 w-[60%] mb-8">
+      <div className="flex flex-wrap justify-center md:grid md:grid-cols-3 md:gap-4 max-w-screen-lg mx-auto mb-8">
         <BenefitItem desc="Gratis kursus bahasa Inggris" />
         <BenefitItem desc="Leadership" />
         <BenefitItem desc="Public speaking skill" />

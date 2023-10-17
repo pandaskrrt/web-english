@@ -12,7 +12,7 @@ const Profile = () => {
             <iframe
               className="rounded-lg absolute inset-0 w-full h-full"
               src="https://lh3.googleusercontent.com/ggs/AF1QipNnU3J0f_e8Wtwf0pE_2d7UNMd4ggQWevCTaGoU=m18?cpn=PAXkheJMFfeoKlcg"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
           </div>
         </div>
